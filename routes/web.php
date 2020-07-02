@@ -111,8 +111,8 @@ Route::post('/byanpay/payment/back','ByanpayController@payment_done');
 //Byanpay END
 
 //Paypal START
-Route::get('/paypal/payment/done', 'PaypalController@getDone')->name('payment.done');
-Route::get('/paypal/payment/cancel', 'PaypalController@getCancel')->name('payment.cancel');
+//Route::get('/paypal/payment/done', 'PaypalController@getDone')->name('payment.done');
+//Route::get('/paypal/payment/cancel', 'PaypalController@getCancel')->name('payment.cancel');
 //Paypal END
 
 // SSLCOMMERZ Start
@@ -218,7 +218,7 @@ Route::get('/instamojo/payment/pay-success', 'InstamojoController@success')->nam
 
 Route::post('rozer/payment/pay-success', 'RazorpayController@payment')->name('payment.rozer');
 
-Route::get('/paystack/payment/callback', 'PaystackController@handleGatewayCallback');
+//Route::get('/paystack/payment/callback', 'PaystackController@handleGatewayCallback');
 
 
 Route::get('/vogue-pay', 'VoguePayController@showForm');

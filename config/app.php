@@ -148,9 +148,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
-        Netshell\Paypal\PaypalServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
-        Mehedi\Paystack\PaystackServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         /*
          * Package Service Providers...
@@ -215,9 +213,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
-        'Paypal' => Netshell\Paypal\Facades\Paypal::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
-        'Paystack' => Mehedi\Paystack\Facades\Paystack::class,
         'MPDF' => niklasravnsborg\LaravelPdf\Facades\Pdf::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
     ],
